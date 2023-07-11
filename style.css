@@ -1,5 +1,6 @@
 *{
     margin: 0; 
+    padding: 0;
 }
 /* body styles starts */
 body{
@@ -64,7 +65,7 @@ main{
 }
 
 .section-container{
-    padding-top: 175px;
+    padding-top: 178px;
     padding-left: 240px;
     padding-right: 240px;
 }
@@ -79,9 +80,9 @@ main{
 .featured-section-explanation{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
-    margin-top: 24px;
+    margin-top:  24px;
 }
 .featured-section-images{
     display: flex;
@@ -89,7 +90,7 @@ main{
     gap: 24px;
 }
 
-.featured-section-images > .images{
+.featured-section-images >.images{
     border-radius: 300px 300px 0px 0px;
     background: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -126,11 +127,12 @@ main{
 
 .section-container-2{
     margin-top: 128px;
-    padding-left: 420px;
+    padding-left: 423px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    height: 620px;
     display: flex;
+    height: 620px;
+    
 }
 
 .section-left{
@@ -149,3 +151,87 @@ main{
     width: 50%;
     padding-left: 200px;
 }
+.instagram-container{
+    padding-top: 128px;
+    padding-left: 240px;
+    padding-right: 240px;
+
+}
+.insta-flowers{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.insta-image{
+    width: 280px;
+    height: 350px;
+    padding: 15px;
+   
+}
+
+.subs-container{
+    padding-top: 128px;
+    padding-left: 240px;
+    padding-right: 240px;
+    margin: auto;
+
+}
+
+.container-background{
+    background-image: url('./flower asset/Rectangle 9.png');
+    border-radius: 8px; 
+    width: 1250px;
+    height: 320px;
+    padding-top: 122px;
+       
+    
+}
+
+.subs-input{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 287px;
+    gap: 16px;
+}
+.subs-input > .input > input{
+    width: 700px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px solid white;
+    padding: 23px;
+    font-size: 16px;
+    
+
+}
+.subs-input > .input > input::placeholder{
+    color: rgba(39, 39, 39, 0.6);
+    font-weight: 400;
+}
+
+
+/* footer styles starts */
+
+footer{
+    height: 50vh;
+    width: 100%;
+    background-color: #181818;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-title{
+     font-size: 50px;
+     font-weight: 800;
+     padding-bottom: 10px;
+}
+.footer-address{
+    margin-top: 32px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+/* footer styles end */
+
