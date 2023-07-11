@@ -47,12 +47,14 @@ body{
     border-radius: 8px;
     font-size: 20px;
     padding: 20px 40px;
-    gap: 10px;
+    color: #FFF;
+    border: 2px solid #E55473;
 
 }
 
 .btn-primary:hover{
-    color: white;
+    color: #E55473;
+    background: #FFF;
 }
 
 
