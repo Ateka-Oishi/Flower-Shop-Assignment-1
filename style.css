@@ -171,19 +171,19 @@ main{
 }
 
 .subs-container{
-    padding-top: 128px;
-    padding-left: 240px;
-    padding-right: 240px;
-    margin: auto;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 130px;
+    
 
 }
 
 .container-background{
     background-image: url('./flower asset/Rectangle 9.png');
     border-radius: 8px; 
-    width: 1250px;
+    width: 1350px;
     height: 320px;
-    padding-top: 122px;
+    padding-top: 100px;
        
     
 }
