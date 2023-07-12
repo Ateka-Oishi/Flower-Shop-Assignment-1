@@ -40,7 +40,7 @@ body{
 .banner-explanation{
   color: rgba(39, 39, 39, 0.60);
   font-size: 18px;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
 }
 
 .btn-primary{
@@ -73,7 +73,7 @@ main{
 .featured-section-title{
   color: #272727;
   text-align: center;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 800;
 }
 
@@ -83,6 +83,7 @@ main{
   font-size: 20px;
   font-weight: 400;
   margin-top:  24px;
+  padding-bottom: 10px;
 }
 .featured-section-images{
   display: flex;
@@ -209,6 +210,53 @@ main{
   font-weight: 400;
 }
 
+#app-section{
+  background-image: linear-gradient(45deg, rgba(167, 33, 98, 0.15), #272727);
+  background-repeat: no-repeat;
+  color: #272727;;
+  height: 500px;
+ 
+  
+}
+.section-title{
+  font-size: 35px;
+  padding-left: 2%;
+  padding-bottom: 10px;
+}
+.link{
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+.flexible{
+  display: flex;
+  padding: 10px 14px;
+  margin: 15px;
+}
+
+.half-width{
+  width: 50%;
+  padding: 10px;
+  margin: 12px;
+  
+}
+.half-width img{
+  width: 70%;
+  height: auto;
+}
+#app-img{
+  height: 70%;
+  width: auto;
+  margin:0;
+  padding: 0;
+}
+.app-store{
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+}
 
 /* footer styles starts */
 
@@ -220,11 +268,13 @@ footer{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  
 }
 .footer-title{
    font-size: 50px;
    font-weight: 800;
    padding-bottom: 10px;
+  
 }
 .footer-address{
   margin-top: 32px;
