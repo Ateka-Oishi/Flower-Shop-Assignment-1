@@ -171,6 +171,7 @@ main{
  
 }
 
+/* sign up */
 .subs-container{
   padding-top: 100px;
   padding-left: 100px;
@@ -180,7 +181,7 @@ main{
 }
 
 .container-background{
-  background-image: url('./flower-asset/Rectangle 9.png');
+  background-image: url('./flower-asset/rectangle\ 9.png');
   border-radius: 8px; 
   width: 1350px;
   height: 320px;
